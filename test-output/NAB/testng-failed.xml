@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NAB]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PersonalLoan(failed)">
+    <parameter name="uname" value="manish@gmai.com"/>
+    <parameter name="pass" value="Test@123456"/>
+    <classes>
+      <class name="demo.Cart">
+        <methods>
+          <include name="addToCartFromPLP"/>
+        </methods>
+      </class> <!-- demo.Cart -->
+    </classes>
+  </test> <!-- PersonalLoan(failed) -->
+</suite> <!-- Failed suite [NAB] -->

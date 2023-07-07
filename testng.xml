@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NAB" thread-count="2" parallel="classes">
+
+
+	<listeners>
+		<listener class-name="demo.ListenersConcept"></listener>
+	</listeners>
+	<parameter name="username" value="manish@gmail.com"></parameter>
+   <test name="PersonalLoan">
+	  
+    <classes>
+   
+      <class name="demo.Login"/>
+      <class name="demo.Payment"/>
+    </classes>
+  </test> 
+  
+    
+  
+  
+  <!-- Test -->
+  
+</suite> <!-- Suite -->
